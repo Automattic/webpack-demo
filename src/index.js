@@ -1,5 +1,6 @@
 import DOM from 'react-dom';
 
-import page from './components/page';
+import Page from './components/page';
 
-DOM.render( page(), document.getElementById( 'main' ) );
+DOM.render( <Page />, document.getElementById( 'main' ) );
+
