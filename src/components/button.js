@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function() {
-    return <button>Hi</button>;
+export default function(props) {
+    return <button>{ props.children }</button>;
 }
