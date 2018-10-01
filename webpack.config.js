@@ -10,7 +10,7 @@ module.exports = {
         chunkFilename: "chunk-[name].js"
     },
     optimization: {
-        minimize: true,
+        minimize: false,
         concatenateModules: false,
         namedModules: true
     }

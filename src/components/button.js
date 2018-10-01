@@ -1,3 +1,5 @@
+import { camelCase } from 'lodash';
+
 export default function() {
-    return "button";
+    return camelCase( "button" );
 }
