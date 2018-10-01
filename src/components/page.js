@@ -5,7 +5,7 @@ import Button from "./button";
 export default function page() {
   return (
     <div className="page">
-      <Button>Hi There</Button>
+      <Button>Hi there</Button>
     </div>
   );
 }
