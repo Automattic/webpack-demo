@@ -1,7 +1,7 @@
-import button from './components/button';
+import { Button } from './components';
 
 function page() {
-    return button();
+    return Button();
 }
 
 page();
