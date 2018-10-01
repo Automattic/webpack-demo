@@ -1,9 +1,7 @@
 import React from 'react';
 
-import button from './button';
+import Button from './button';
 
 export default function page() {
-    return React.createElement( 'div', {
-        className: 'page'
-    }, button() );
+    return <div className="page"><Button /></div>;
 }
