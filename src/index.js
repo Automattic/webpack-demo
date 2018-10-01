@@ -1,7 +1,5 @@
-import button from './components/button';
+import DOM from 'react-dom';
 
-function page() {
-    return button();
-}
+import page from './components/page';
 
-page();
+DOM.render( page() );
