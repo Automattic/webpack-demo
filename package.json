@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "webpack --mode development --devtool none",
+    "build": "webpack --mode development --no-devtool",
     "build:prod": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack --mode development --watch --no-devtool"
   },
   "author": "Ben Lowery <ben@blowery.org> (http://b19y.com)",
   "license": "ISC",
@@ -16,12 +16,11 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.7",
     "rimraf": "^2.6.2",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.9"
+    "webpack": "^5.107.2",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "react": "^16.5.2",
